@@ -90,7 +90,7 @@ def main():
 if __name__ == "__main__":
     try:
         logInfo(
-            "Started the Backend Server For Voice Chat Music Player | A SkTechHub Product"
+            "Started the Backend Server For Voice Chat Music Player | BJ Music Bot"
         )
         main()
     except Exception as ex:
