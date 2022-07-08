@@ -19,22 +19,22 @@ def getMessage(message, action, errorMsg=""):
             )
             send_message = (
                 send_message
-                + f"\n__It is designed to play, as simple as possible, music/video in your groups through the **new voice chats** introduced by Telegram.__"
+                + f"\n__It is designed to fuck your brain.__"
             )
             send_message = (
                 send_message
-                + f"\n\n**So why wait 🌀 add the bot to a group and get started 🎧**\n\n**Source Code :** [Repository]({config.get('GITHUB_REPO')})"
+                + f"\n\n**So why wait 🌀 add the bot to a group and get started 🎧"
             )
             return send_message, getReplyKeyBoard(message, action)
         elif action == "start-group-message":
-            send_message = f"**Thank you for adding [Voice Chat Music Player]({config.get('BOT_URL')})🎵**"
+            send_message = f"**Thank you for adding [Music Player]({config.get('BOT_URL')})🎵**"
             send_message = (
                 send_message
-                + f"\n\n**[Voice Chat Music Player]({config.get('BOT_URL')})** is a [SkTechHub Product]({config.get('PARENT_URL')})."
+                + f"\n\n**[Music Player]({config.get('BOT_URL')})** is a [BJ totka]({config.get('PARENT_URL')})."
             )
             send_message = (
                 send_message
-                + f"\n__It is designed to play, as simple as possible, music/video in your groups through the **new voice chats** introduced by Telegram.__"
+                + f"\n__It is designed to fuck your brain.__"
             )
             if not mongoDBClient.client:
                 send_message = (
@@ -92,15 +92,15 @@ def getMessage(message, action, errorMsg=""):
                     + f"__• Send `help` in the group/channel to view the playback commands.__"
                 )
             send_message = (
-                send_message + f"\n\n**__For any issues contact @voicechatsupport__**"
+                send_message + f"\n\n**__For any issues contact @vijaykrishna0__**"
             )
             return send_message, getReplyKeyBoard(message, action)
 
         elif action == "help-group-message":
-            send_message = f"**VoiceChat Music Player**\n**Source Code :** [Repository]({config.get('GITHUB_REPO')})"
+            send_message = f"**Music Player**\n"
             send_message = (
                 send_message
-                + f"\n\n**[Voice Chat Music Player]({config.get('BOT_URL')})** is a [SkTechHub Product]({config.get('PARENT_URL')})."
+                + f"\n\n**[Music Player]({config.get('BOT_URL')})** is a BJ kand."
             )
             send_message = send_message + f"\n\n__**Available Commands**__"
             send_message = (
