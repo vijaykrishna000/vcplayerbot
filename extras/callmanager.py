@@ -306,7 +306,7 @@ class GroupCallInstance(object):
                 self.logWarn(f"Can be ignored : leave_current_group_call :{ex}")
 
             if send_reason_msg is True:
-                resp_msg = f"**Playback ended `[If you were in middle of a song and you are getting this message then this has happended due to a deployement. You can play again after some time.]`**\n\n__Thank you for trying and do give your feedback/suggestion @sktechhub_chat.__"
+                resp_msg = f"**Playback ended **\n\n__Thanks.__"
             else:
                 resp_msg = f"__Playback Ended.__"
 
