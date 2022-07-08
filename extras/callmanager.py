@@ -216,7 +216,7 @@ class GroupCallInstance(object):
                     GetFullChannel(channel=input_peer)
                 )
                 title_change = EditGroupCallTitle(
-                    call=chat.full_chat.call, title="VC Player | By SkTechHub"
+                    call=chat.full_chat.call, title="BJ wale babu | #Totka"
                 )
                 await self.user_app_client.send(title_change)
             except Exception as ex:
