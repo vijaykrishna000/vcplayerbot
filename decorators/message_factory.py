@@ -7,7 +7,7 @@ def getMessage(message, action, errorMsg=""):
         extra_options = {
             "-video": "Stream the video file in video chat.",
             "-audio": "Stream just the audio.",
-            "-repeat": "Play the song/video in repeat mode.",
+            "-repeat": "ye supported hai ab iska mtlb mat puchna.",
             "-res720": "Stream the audio/video in the provided quality/resolution.",
             "-lipsync": "Use this if audio is not in sync with video",
         }
