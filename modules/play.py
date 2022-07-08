@@ -82,7 +82,7 @@ async def play(client: Client, message, current_client):
         if songDetails is not None and len(songDetails) > 0:
             song_info = songDetails[0]
             max_duration = current_client.get("extras").get("max_duration")
-            if song_info["duration"] and song_info["duration"] = int(max_duration):
+            if song_info["duration"] and song_info["duration"] > int(max_duration):
                 await edit_message(
                     sent_msg,
                     f"__😢 I am a noob coder this bot will not be able to play this song I'll fix this soon \n \n @vijaykrishna0.__",
