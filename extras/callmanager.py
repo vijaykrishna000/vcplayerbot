@@ -109,7 +109,7 @@ class GroupCallInstance(object):
             if config.get("PLAYBACK_FOOTER"):
                 footer = f"{config.get('PLAYBACK_FOOTER')}".replace("\\n", "\n")
             footer_val = (
-                footer if footer else "For any issues contact @voicechatsupport"
+                footer if footer else "For any issues contact @vijaykrishna0"
             )
             if songInfo["requested_by"].get("group_username"):
                 footer_val = f"[Click Here](https://t.me/{songInfo['requested_by']['group_username']}?voicechat) to join voice chat and listen/video media.\n{footer_val}"
