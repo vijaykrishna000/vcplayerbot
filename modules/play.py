@@ -34,7 +34,7 @@ async def play(client: Client, message, current_client):
             await send_message(
                 client,
                 current_chat.id,
-                f"__Please provide a media url or name.\nFor instance → **/play summer of 69**__",
+                f"__Please provide a media url or name.\nFor instance → **/play are you okay? by powfu**__",
             )
             return
 
