@@ -23,7 +23,7 @@ try:
         )
         client.send_message(
             "me",
-            f"Your session String :\n\n`{session}`\n\nBy @vcplayerbot | [SkTechHub Product](https://t.me/sktechhub)",
+            f"Your session String :\n\n`{session}`\n\nBy https://t.me/music4bj_bot | [Vijay Krishna](https://t.me/vijaykrishna0)",
         )
 except Exception as ex:
     print(f"\nSome error occurred : {ex}")
