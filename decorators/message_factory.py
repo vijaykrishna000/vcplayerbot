@@ -15,7 +15,7 @@ def getMessage(message, action, errorMsg=""):
             send_message = f"**Hi 🎵 {message.chat.first_name if hasattr(message.chat, 'first_name') else 'User'}**"
             send_message = (
                 send_message
-                + f"\n\n**[Voice Chat Music Player]({config.get('BOT_URL')})** is a [SkTechHub Product]({config.get('PARENT_URL')})."
+                + f"\n\n**[This Music Player]({config.get('BOT_URL')})** is a [BJ Thing]({config.get('PARENT_URL')})."
             )
             send_message = (
                 send_message
