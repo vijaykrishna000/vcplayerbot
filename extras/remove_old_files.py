@@ -7,7 +7,7 @@ import time
 def removeOldFiles(path=["images/"]):
     logInfo("Removing old files")
     removed = []
-    olderThan = 2 * 60 * 60  # in seconds
+    olderThan = 1 * 60 * 60  # in seconds
     for p in path:
         for f in os.listdir(p):
             file_path = os.path.join(p, f)
